@@ -15,14 +15,14 @@
     <h1>transcription</h1>
 
     <audio preload="metadata"
-        src="c7af026a-8eaa-401e-9e55-ea6f6145156a.wav"
+        src="./c7af026a-8eaa-401e-9e55-ea6f6145156a.wav"
         controls>
         <track kind="metadata"
-            src="transcription.vtt">
+            src="./transcription.vtt">
     </audio>
 
     <div class="tt-transcript"
-        data-tt-media-urls="c7af026a-8eaa-401e-9e55-ea6f6145156a.wav">
+        data-tt-media-urls="./c7af026a-8eaa-401e-9e55-ea6f6145156a.wav">
         <p>Hello amigo, this is the.</p>
         <p>Dev.</p>
         <p>IVR.</p>
@@ -108,7 +108,6 @@
 
         // Prepare transcripts and media players
         function loadTranscriptTracer(options = null) {
-            alert("here");
             if (document.readyState == 'loading') {
                 // Wait for document to load
                 document.addEventListener('DOMContentLoaded', function () {
