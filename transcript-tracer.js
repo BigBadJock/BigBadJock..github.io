@@ -29,6 +29,7 @@ function loadTranscriptTracer(options=null) {
     document.addEventListener('DOMContentLoaded', function() {
       loadTranscriptTracer(options);
     });
+    alert("done");
     return;
   }
   
